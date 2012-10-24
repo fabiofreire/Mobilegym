@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutInformacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textViewInformacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O Mobile GYM é um sistema de gerenciamento de academia. De maneira rápida e fácil você poderá gerenciar os seus alunos na academia e cadastar sua respectiva série, sendo no fim visualizada pelo mesmo."
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

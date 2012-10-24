@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/buttonCalcularI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="37dp"
+        android:layout_marginRight="28dp"
+        android:text="@string/calcimc" />
+
+    <NumberPicker
+        android:id="@+id/numberPickerGrama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp" />
+
+    <NumberPicker
+        android:id="@+id/numberPickerKg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/numberPickerGrama"
+        android:layout_marginRight="19dp"
+        android:layout_toLeftOf="@+id/numberPickerGrama" />
+
+    <NumberPicker
+        android:id="@+id/numberPickerMetros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonCalcularI"
+        android:layout_alignLeft="@+id/numberPickerKg"
+        android:layout_marginBottom="37dp" />
+
+    <NumberPicker
+        android:id="@+id/numberPickerCm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/numberPickerMetros"
+        android:layout_toRightOf="@+id/numberPickerKg" />
+
+    <TextView
+        android:id="@+id/textViewPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/numberPickerKg"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_toLeftOf="@+id/numberPickerKg"
+        android:text="@string/peso"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewAltura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textViewPeso"
+        android:layout_alignTop="@+id/numberPickerMetros"
+        android:layout_marginTop="51dp"
+        android:text="@string/altura"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
