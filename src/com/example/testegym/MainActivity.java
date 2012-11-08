@@ -39,7 +39,6 @@ public class MainActivity extends Activity {
 		
 		btnovo.setOnClickListener(new View.OnClickListener() {
 
-			@Override
 			public void onClick(View v) {
 				carregaCadastroAluno();
 
@@ -48,7 +47,6 @@ public class MainActivity extends Activity {
 
 		btcadastrados.setOnClickListener(new View.OnClickListener() {
 
-			@Override
 			public void onClick(View v) {
 				listagemCadastrados();
 
@@ -57,7 +55,6 @@ public class MainActivity extends Activity {
 		
 		btImc.setOnClickListener(new View.OnClickListener() {
 			
-			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(MainActivity.this, ImcActivity.class);
 				startActivity(intent);
@@ -74,7 +71,6 @@ public class MainActivity extends Activity {
 		
 		btconfirma.setOnClickListener(new View.OnClickListener() {
 			
-			@Override
 			public void onClick(View v) {
 				ednome = (EditText) findViewById(R.cadastro.ednome);
 				edendereco = (EditText) findViewById(R.cadastro.edendereco);
@@ -130,7 +126,6 @@ public class MainActivity extends Activity {
 		
 		btmenu.setOnClickListener(new View.OnClickListener() {
 			
-			@Override
 			public void onClick(View v) {
 				carregaCadastro();
 			}
@@ -138,7 +133,6 @@ public class MainActivity extends Activity {
 		
 		btvoltar.setOnClickListener(new View.OnClickListener() {
 			
-			@Override
 			public void onClick(View v) {
 				if(iterator.hasPrevious()){
 					Aluno prev = iterator.previous();
@@ -160,7 +154,6 @@ public class MainActivity extends Activity {
 		btavancar.setOnClickListener(new View.OnClickListener() {
 			
 			
-			@Override
 			public void onClick(View v) {
 				if(iterator.hasNext()){
 					Aluno next = iterator.next();

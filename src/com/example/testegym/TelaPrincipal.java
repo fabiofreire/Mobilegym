@@ -20,7 +20,6 @@ public class TelaPrincipal extends Activity{
 
 		btCadAluno.setOnClickListener(new View.OnClickListener() {
 
-			@Override
 			public void onClick(View v) {
 				carregaCadastro();
 
@@ -29,7 +28,6 @@ public class TelaPrincipal extends Activity{
 
 		btInformacao.setOnClickListener(new View.OnClickListener() {
 
-			@Override
 			public void onClick(View v) {
 				informacao();
 

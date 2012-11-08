@@ -3,7 +3,7 @@
     <string name="app_name">testegym</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">Mobile-gym</string>
     <string name="title_activity_imc">ImcActivity</string>
     <string name="peso">Peso(Kg)</string>
     <string name="altura">Altura</string>
